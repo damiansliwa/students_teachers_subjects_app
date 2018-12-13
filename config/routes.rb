@@ -6,5 +6,5 @@ Rails.application.routes.draw do
   resources :teachers
   get "reports/subjects"
   get "visitors/index"
-
+  root  'students#index'
 end
